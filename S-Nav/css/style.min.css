@@ -5676,3 +5676,119 @@ darkmode-selector {
     background: #faebd7 url(http://gogobody.gitee.io/onenav-tool/static/images/r8.jpg);
     background-size: cover;
 }
+.zhankr_slogin_btn i.fa.fa-user {
+    color: #fff !important;
+}
+.zhankr_slogin {
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    height: auto;
+    line-height: 45px;
+    background: #f9f9f9;
+    border-top: 1px solid #e6e6e6;
+    font-family: microsoft yahei;
+    transition: All 0.5s ease-in-out;
+    -webkit-transition: All 0.5s ease-in-out;
+    -moz-transition: All 0.5s ease-in-out;
+    -o-transition: All 0.5s ease-in-out;
+    background: #fff;
+}
+.zhankr_slogin {
+    -webkit-transition: All 0.5s ease-in-out;
+    -moz-transition: All 0.5s ease-in-out;
+    -o-transition: All 0.5s ease-in-out;
+    transition: All 0.5s ease-in-out;
+}
+.zhankr_slogin .wp {
+    width: 100%;
+    align-content: center;
+}
+.zhankr_slogin_info {
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 2px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 300;
+}
+.zhankr_slogin_info a {
+    color: #3d7eff;
+    text-decoration: underline;
+}
+.zhankr_slogin_btn {
+    display: inline-block;
+    line-height: 40px;
+    height: 40px;
+    margin: 0 8px;
+}
+.zhankr_slogin_btn a {
+    display: block;
+    background: #ec2546;
+    color: #fff;
+    padding: 0 30px;
+    border-radius: 3px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.zhankr_slogin_qq .fa-qq,
+.zhankr_slogin_wechat .fa-wechat,
+.loginbutton .fa-user {
+    color: #fff;
+    margin-right: 3px;
+}
+.zhankr_slogin_line {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 1px;
+    height: 10px;
+    background: #ccc;
+}
+.zhankr_slogin_qq {
+    border-radius: 10%;
+    display: inline-block !important;
+    zoom: 1;
+    display: inline;
+    line-height: 40px;
+    height: 40px;
+    margin: 0 8px;
+    white-space: nowrap;
+}
+.zhankr_slogin_qq a {
+    display: block;
+    color: #fff;
+    padding: 0 30px;
+    border-radius: 3px;
+    font-size: 16px;
+    background: #2581ff;
+    border-radius: 5px;
+}
+.zhankr_slogin_wechat {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    line-height: 40px;
+    height: 40px;
+    margin: 0 8px;
+    white-space: nowrap;
+}
+.zhankr_slogin_wechat a {
+    display: block;
+    color: #fff;
+    padding: 0 30px;
+    border-radius: 3px;
+    font-size: 16px;
+    background: #2bac19;
+    border-radius: 5px;
+}
+@media (max-width: 768px) {
+    .zhankr_slogin,
+    .sort {
+        display: none;
+    }
+}
